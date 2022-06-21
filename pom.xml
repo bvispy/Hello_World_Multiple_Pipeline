@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.test</groupId>
-  <artifactId>HelloWorldMaven</artifactId>
-  <version>1.0.2-master</version>
+  <artifactId>MULTIPIPELINE</artifactId>
+  <version>1.0.0-Master</version>
   <packaging>jar</packaging>
 
   <name>HelloWorldMaven</name>
