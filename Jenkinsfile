@@ -1,24 +1,28 @@
-pipeline {
+pipeline
+{
     agent any
-    stages {
-        
-        stage('build') {
-            steps {
-                sh 'echo "mvn --version"'
+    stages    
+    {
+        stage('Build')
+        {
+            steps
+            {
+                echo 'Build Application World'
             }
         }
-        
-
-        stage('test') {
-            steps {
-                sh 'echo "TESTING"'
+        stage('Test')
+        {
+            steps
+            {
+                echo 'Test Aplication Hello World'
             }
         }
-    
-        stage('DEv') {
-            steps {
-                sh 'echo "DEV"'
+        stage('Deploy') 
+        {
+            steps
+            {
+                echo 'DEploy World'
             }
+                  }
         }
-    }
 }
